@@ -1,0 +1,22 @@
+{
+  "transactions": [
+    {
+      "rpc": "https://sepolia.unichain.org"
+    },
+    {
+      "rpc": "https://sepolia.unichain.org"
+    },
+    {
+      "rpc": "https://sepolia.unichain.org"
+    },
+    {
+      "rpc": "https://sepolia.unichain.org"
+    },
+    {
+      "rpc": "https://sepolia.unichain.org"
+    },
+    {
+      "rpc": "https://sepolia.unichain.org"
+    }
+  ]
+}

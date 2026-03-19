@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-uni-bg text-white font-sans;
+    min-height: 100vh;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #131A2A;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1B2234;
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2D3A5A;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-uni-card border border-uni-border rounded-xl p-4;
+  }
+
+  .label {
+    @apply text-uni-text text-xs font-mono uppercase tracking-wider;
+  }
+
+  .value-lg {
+    @apply text-white text-3xl font-bold font-mono;
+  }
+
+  .btn {
+    @apply rounded-lg px-4 py-3 font-semibold text-sm transition-all duration-200 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-pink {
+    @apply btn bg-uni-pink text-black hover:brightness-110 active:brightness-90;
+  }
+
+  .btn-outline {
+    @apply btn border border-uni-border text-uni-text hover:border-uni-pink hover:text-white;
+  }
+
+  .status-dot {
+    @apply w-2 h-2 rounded-full inline-block;
+  }
+}

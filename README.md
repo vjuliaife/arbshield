@@ -293,9 +293,6 @@ forge test --match-path test/ArbShieldReactive.t.sol -vv
 
 # Full end-to-end integration scenarios
 forge test --match-path test/ArbShieldIntegration.t.sol -vv
-
-# Gas report
-forge test --gas-report
 ```
 
 ### Deploy
